@@ -2,6 +2,7 @@ streamlit
 streamlit-webrtc
 streamlit-autorefresh
 opencv-python
+dlib-bin
 face_recognition
 mediapipe
 av
