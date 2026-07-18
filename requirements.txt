@@ -1,0 +1,7 @@
+streamlit
+streamlit-webrtc
+streamlit-autorefresh
+opencv-python
+face_recognition
+mediapipe
+av
