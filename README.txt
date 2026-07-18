@@ -1,13 +1,17 @@
 --README--
-These two programs are designed to work as a security measure for your laptop. 
-Essentially, if someone other than yourself tries to access your laptop, the laptop will close itself out after 3 seconds or so. 
-This project uses OpenCV, along with the use of libraries MediaPipe,face_recognition, and pickle to accomplish this. 
+This project is designed for those who truly value their privacy. 
 
-The way it works is that you run face_saver to save the image of YOUR face, so that when cv-lockout is run, it's constantly checking to see whether your face is on the screen or not.
-To save your face, press spacebar. 
-If your face stays in screen, nothing happens, and you can use the computer as normal. 
-But if it falls out of the screen, or someone other than yourself puts their face in the camera, the computer returns to the lock screen after about 3 seconds.
+This is meant to essentially capture a working model of your face, 
+and constantly read video from your camera to see whether or not the original user is still in the frame.
 
-To prevent false lockouts, make sure that your full face is up close and visible to the camera, as the detection strength deteriorates with distance.
+This whole idea orignally started as two seperate programs, 
+originally created using OpenCV,
+where one would 'save' your face model,
+and the other would run the main program loop.
 
-This is the initial version, hopefully greater functionality can be added in order to improve it.
+As I've returned to the project, I've consolidated both programs into one working file, 
+that now also runs using streamlit, allowing it to be run as a web application. 
+
+For the sake of convenience, both versions of the project are included, for you to use at your leisure.
+
+I fully intend to continue to improve the original base, to enhance the user experience, and I'm fully open to any suggestions!
